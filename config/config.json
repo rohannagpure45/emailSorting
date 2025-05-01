@@ -1,0 +1,17 @@
+{
+  "gmail_credentials_path": "config/credentials.json",
+  "gmail_token_path": "config/token.json",
+  "google_api_key": "AIzaSyAtEaDOhDXcDotHCTWoOFrCVrQyeFZ3qI0",
+  "model_name": "gemini-2.0-flash",
+  "batch_size": 10,
+  "confidence_threshold": 0.5,
+  "auto_mark_as_read": true,
+  "label_mappings": {
+    "work": "Work",
+    "personal": "Personal",
+    "promotional": "Promotions",
+    "social": "Social",
+    "updates": "Updates",
+    "other": "Other"
+  }
+}

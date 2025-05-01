@@ -1,0 +1,20 @@
+{
+  "category": "work",
+  "confidence": 0.95,
+  "reasoning": "The email is from DoorDash, a company, regarding a \"Contract violation received,\" which is work-related for someone who delivers for them. While the email has marketing links to download the app and sign up for DashPass, the primary focus is on the contract violation.",
+  "sentiment": "negative",
+  "priority": "high",
+  "action_required": true,
+  "action_items": [
+    "Review the violation details by clicking on the 'See violation details' button.",
+    "Dispute the violation if you believe it is incorrect."
+  ],
+  "deadlines": [],
+  "summary": "DoorDash informs the recipient of a contract violation related to a recent delivery. The email urges the user to review violation details and dispute if necessary, also providing links to the Dasher ICA and Platform Access Policy.",
+  "enhanced_data": {
+    "project": "",
+    "colleagues": [],
+    "meeting_details": "",
+    "deadline_criticality": "urgent"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "category": "promotional",
+  "confidence": 0.95,
+  "reasoning": "The email is from Samsung promoting their new 2025 TV and Audio lineup. The subject line and body content (which contains promotional banners and links to shop specific products) clearly indicate this is a marketing email designed to encourage purchases.",
+  "sentiment": "neutral",
+  "priority": "low",
+  "action_required": false,
+  "action_items": [],
+  "deadlines": [],
+  "summary": "This promotional email from Samsung announces their new 2025 TV and audio lineup. It includes multiple banner images linking to various product categories and offers, encouraging the recipient to explore the new products. There is an option to unsubscribe from future emails.",
+  "enhanced_data": {}
+}

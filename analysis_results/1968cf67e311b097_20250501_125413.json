@@ -1,0 +1,12 @@
+{
+  "category": "promotional",
+  "confidence": 0.95,
+  "reasoning": "The email is from Chipotle and advertises a \"Cinco starts now with $0 Delivery Fee\" promotion. It contains links to their social media and customer service, common in marketing emails. The subject line and body clearly indicate a promotional offer.",
+  "sentiment": "positive",
+  "priority": "medium",
+  "action_required": false,
+  "action_items": [],
+  "deadlines": [],
+  "summary": "Chipotle offers $0 delivery fee for Cinco de Mayo. The email includes links to view the message in browser, Chipotle Rewards, and their social media pages. It also has links for customer service, unsubscribe, terms of use, and privacy policy.",
+  "enhanced_data": {}
+}

@@ -1,0 +1,17 @@
+{
+  "category": "work",
+  "confidence": 0.9,
+  "reasoning": "The email is about a \"Dasher Welcome Kit,\" which is highly suggestive of onboarding materials for a DoorDash driver. This indicates work-related communication, specifically related to starting a job as a delivery driver.",
+  "sentiment": "positive",
+  "priority": "low",
+  "action_required": false,
+  "action_items": [],
+  "deadlines": [],
+  "summary": "An automated email confirms the shipment of a Dasher Welcome Kit. No action is required; it's simply a notification.",
+  "enhanced_data": {
+    "project": "",
+    "colleagues": [],
+    "meeting_details": "",
+    "deadline_criticality": "standard"
+  }
+}

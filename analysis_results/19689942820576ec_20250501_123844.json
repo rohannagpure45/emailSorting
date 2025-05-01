@@ -1,0 +1,21 @@
+{
+  "category": "work",
+  "confidence": 0.95,
+  "reasoning": "The email is from DoorDash and discusses a \"Contract violation received\". This indicates a professional or work-related issue pertaining to someone working as a Dasher (delivery driver), making \"work\" the most appropriate category. The \"subject\" of the email specifically states \"contract violation received\", and this is a contract the recipient has with Doordash.",
+  "sentiment": "negative",
+  "priority": "high",
+  "action_required": true,
+  "action_items": [
+    "Review the violation details.",
+    "Dispute the violation if you believe it's incorrect.",
+    "Acknowledge and understand the DoorDash ICA and Platform Access Policy."
+  ],
+  "deadlines": [],
+  "summary": "You've received a contract violation notice from DoorDash for a recent delivery, citing breaches of their ICA and Platform Access Policy. You are advised to check violation details and dispute if needed. A link is provided to view violation details.",
+  "enhanced_data": {
+    "project": "",
+    "colleagues": [],
+    "meeting_details": "{\n      \"time\": null",
+    "deadline_criticality": "urgent"
+  }
+}

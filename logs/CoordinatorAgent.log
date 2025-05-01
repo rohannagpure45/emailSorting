@@ -1,0 +1,370 @@
+2025-05-01 12:11:36.074 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:11:36.075 | INFO     | agents.base_agent:log:34 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:11:39.005 | INFO     | agents.base_agent:log:34 - [CoordinatorAgent] Processing email: Pro for $29? Not after Monday.
+2025-05-01 12:11:39.005 | INFO     | agents.base_agent:log:34 - [EmailAnalyzerAgent] Analyzing email: Pro for $29? Not after Monday.
+2025-05-01 12:11:39.301 | ERROR    | agents.base_agent:handle_error:41 - Error in EmailAnalyzerAgent: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods. Context: Failed to analyze email
+2025-05-01 12:11:39.301 | ERROR    | agents.base_agent:handle_error:41 - Error in CoordinatorAgent: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods. Context: Error in coordinator workflow
+2025-05-01 12:11:39.301 | ERROR    | __main__:main:56 - Unhandled error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-01 12:13:21.325 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:13:21.326 | INFO     | agents.base_agent:log:34 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:13:24.033 | INFO     | agents.base_agent:log:34 - [CoordinatorAgent] Processing email: Pro for $29? Not after Monday.
+2025-05-01 12:13:24.033 | INFO     | agents.base_agent:log:34 - [EmailAnalyzerAgent] Analyzing email: Pro for $29? Not after Monday.
+2025-05-01 12:13:28.314 | ERROR    | agents.base_agent:handle_error:41 - Error in EmailAnalyzerAgent: object GenerateContentResponse can't be used in 'await' expression Context: Failed to analyze email
+2025-05-01 12:13:28.314 | ERROR    | agents.base_agent:handle_error:41 - Error in CoordinatorAgent: object GenerateContentResponse can't be used in 'await' expression Context: Error in coordinator workflow
+2025-05-01 12:13:28.314 | ERROR    | __main__:main:56 - Unhandled error: object GenerateContentResponse can't be used in 'await' expression
+2025-05-01 12:20:42.846 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:20:42.847 | INFO     | agents.base_agent:log:33 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:20:45.787 | INFO     | agents.base_agent:log:33 - [CoordinatorAgent] Processing email: Pro for $29? Not after Monday.
+2025-05-01 12:20:45.788 | INFO     | agents.base_agent:log:33 - [EmailAnalyzerAgent] Analyzing email: Pro for $29? Not after Monday.
+2025-05-01 12:20:46.210 | ERROR    | agents.base_agent:handle_error:40 - Error in EmailAnalyzerAgent: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods. Context: Failed to analyze email
+2025-05-01 12:20:46.211 | ERROR    | agents.base_agent:handle_error:40 - Error in CoordinatorAgent: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods. Context: Error in coordinator workflow
+2025-05-01 12:20:46.211 | ERROR    | __main__:main:56 - Unhandled error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-01 12:23:43.099 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:23:43.099 | INFO     | agents.base_agent:log:33 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:23:45.700 | INFO     | agents.base_agent:log:33 - [CoordinatorAgent] Processing email: Pro for $29? Not after Monday.
+2025-05-01 12:23:45.701 | INFO     | agents.base_agent:log:33 - [EmailAnalyzerAgent] Analyzing email: Pro for $29? Not after Monday.
+2025-05-01 12:23:45.701 | ERROR    | agents.base_agent:handle_error:40 - Error in EmailAnalyzerAgent: 'NoneType' object has no attribute 'GenerativeModel' Context: Failed to analyze email
+2025-05-01 12:23:45.701 | ERROR    | agents.base_agent:handle_error:40 - Error in CoordinatorAgent: 'NoneType' object has no attribute 'GenerativeModel' Context: Error in coordinator workflow
+2025-05-01 12:23:45.701 | ERROR    | __main__:main:56 - Unhandled error: 'NoneType' object has no attribute 'GenerativeModel'
+2025-05-01 12:26:47.491 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:26:47.492 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:26:50.458 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Pro for $29? Not after Monday.
+2025-05-01 12:26:50.459 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Pro for $29? Not after Monday.
+2025-05-01 12:26:51.985 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:26:51.985 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968cc317e6d6c90
+2025-05-01 12:26:53.292 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968cc317e6d6c90 as read
+2025-05-01 12:26:53.887 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Pro for $29? Not after Monday.
+2025-05-01 12:26:53.887 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Visit us again and get $15 off your MVP service
+2025-05-01 12:26:53.887 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Visit us again and get $15 off your MVP service
+2025-05-01 12:26:57.556 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:26:57.558 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968cc2f7e4d8f4b
+2025-05-01 12:26:58.149 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968cc2f7e4d8f4b as read
+2025-05-01 12:26:58.542 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Visit us again and get $15 off your MVP service
+2025-05-01 12:26:58.542 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Trump Media Reincorporates in Florida Following Annual Meeting
+2025-05-01 12:26:58.542 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Trump Media Reincorporates in Florida Following Annual Meeting
+2025-05-01 12:26:59.811 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:26:59.811 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968caadc60e8d73
+2025-05-01 12:27:00.439 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968caadc60e8d73 as read
+2025-05-01 12:27:00.952 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Trump Media Reincorporates in Florida Following Annual Meeting
+2025-05-01 12:27:00.952 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: 🔥 Storewide 15-25% Off – Don't Miss Out! 🌿
+2025-05-01 12:27:00.952 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: 🔥 Storewide 15-25% Off – Don't Miss Out! 🌿
+2025-05-01 12:27:02.727 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:02.728 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968c431a497bb65
+2025-05-01 12:27:03.309 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968c431a497bb65 as read
+2025-05-01 12:27:03.776 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: 🔥 Storewide 15-25% Off – Don't Miss Out! 🌿
+2025-05-01 12:27:03.778 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Get more offers, earn more money.
+2025-05-01 12:27:03.778 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Get more offers, earn more money.
+2025-05-01 12:27:04.893 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:04.894 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968c28a45143587
+2025-05-01 12:27:05.474 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968c28a45143587 as read
+2025-05-01 12:27:05.877 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Get more offers, earn more money.
+2025-05-01 12:27:05.877 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: POV: You Saw May Perks ✨
+2025-05-01 12:27:05.877 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: POV: You Saw May Perks ✨
+2025-05-01 12:27:07.157 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:07.158 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968c287388572be
+2025-05-01 12:27:07.971 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968c287388572be as read
+2025-05-01 12:27:08.494 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: POV: You Saw May Perks ✨
+2025-05-01 12:27:08.495 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: ENDS TODAY: Up to 30 percent off base fares.
+2025-05-01 12:27:08.495 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: ENDS TODAY: Up to 30 percent off base fares.
+2025-05-01 12:27:09.863 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:09.863 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968c0cb8eb626b1
+2025-05-01 12:27:10.591 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968c0cb8eb626b1 as read
+2025-05-01 12:27:11.015 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: ENDS TODAY: Up to 30 percent off base fares.
+2025-05-01 12:27:11.016 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: [Save 20%] Your contacts are ready to ship
+2025-05-01 12:27:11.016 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: [Save 20%] Your contacts are ready to ship
+2025-05-01 12:27:11.781 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:11.782 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968c09004eedc03
+2025-05-01 12:27:12.420 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968c09004eedc03 as read
+2025-05-01 12:27:12.836 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: [Save 20%] Your contacts are ready to ship
+2025-05-01 12:27:12.836 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Hurry! Spring Sale ends soon.
+2025-05-01 12:27:12.836 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Hurry! Spring Sale ends soon.
+2025-05-01 12:27:14.266 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:14.266 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968bfba0b1c45f7
+2025-05-01 12:27:14.851 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968bfba0b1c45f7 as read
+2025-05-01 12:27:15.447 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Hurry! Spring Sale ends soon.
+2025-05-01 12:27:15.447 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: 👀Use this 72-hour rule before your next application (TODAY)
+2025-05-01 12:27:15.447 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: 👀Use this 72-hour rule before your next application (TODAY)
+2025-05-01 12:27:16.883 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:27:16.884 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968befb0d91162a
+2025-05-01 12:27:17.514 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968befb0d91162a as read
+2025-05-01 12:27:17.931 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: 👀Use this 72-hour rule before your next application (TODAY)
+2025-05-01 12:27:17.931 | INFO     | __main__:main:51 - Processed 10 emails
+2025-05-01 12:30:47.787 | INFO     | __main__:main:44 - Starting email processing with batch size: 10
+2025-05-01 12:30:47.788 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:30:50.478 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: My Autotrader Alerts: We found 2 more vehicles for you
+2025-05-01 12:30:50.478 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: My Autotrader Alerts: We found 2 more vehicles for you
+2025-05-01 12:30:51.737 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: shopping
+2025-05-01 12:30:51.738 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Shopping' to email 1968ba3f214d21a7
+2025-05-01 12:30:52.770 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968ba3f214d21a7 as read
+2025-05-01 12:30:53.173 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: My Autotrader Alerts: We found 2 more vehicles for you
+2025-05-01 12:30:53.173 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: You've Been Matched! $5,000 Scholarship Opportunity
+2025-05-01 12:30:53.173 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: You've Been Matched! $5,000 Scholarship Opportunity
+2025-05-01 12:30:54.451 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: education
+2025-05-01 12:30:54.451 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Education' to email 1968b96f2a6f5fb5
+2025-05-01 12:30:55.366 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968b96f2a6f5fb5 as read
+2025-05-01 12:30:55.853 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: You've Been Matched! $5,000 Scholarship Opportunity
+2025-05-01 12:30:55.855 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Turning eyeballs into AI hauls
+2025-05-01 12:30:55.855 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Turning eyeballs into AI hauls
+2025-05-01 12:30:56.831 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:30:56.831 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968b6d5199f6c75
+2025-05-01 12:30:57.595 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968b6d5199f6c75 as read
+2025-05-01 12:30:58.119 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Turning eyeballs into AI hauls
+2025-05-01 12:30:58.119 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Últimos días para disfrutar de The FRIENDS™  Experience: The One in Madrid
+2025-05-01 12:30:58.119 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Últimos días para disfrutar de The FRIENDS™  Experience: The One in Madrid
+2025-05-01 12:30:59.167 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: events
+2025-05-01 12:30:59.168 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Events' to email 1968b6138ff96514
+2025-05-01 12:31:00.216 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968b6138ff96514 as read
+2025-05-01 12:31:00.740 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Últimos días para disfrutar de The FRIENDS™  Experience: The One in Madrid
+2025-05-01 12:31:00.740 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: ☕  Baristas over bots
+2025-05-01 12:31:00.740 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: ☕  Baristas over bots
+2025-05-01 12:31:01.789 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: news
+2025-05-01 12:31:01.789 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'News' to email 1968b365fedf31ca
+2025-05-01 12:31:02.838 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968b365fedf31ca as read
+2025-05-01 12:31:03.361 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: ☕  Baristas over bots
+2025-05-01 12:31:03.361 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New jobs posted from careers.ll.mit.edu
+2025-05-01 12:31:03.361 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New jobs posted from careers.ll.mit.edu
+2025-05-01 12:31:04.214 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: work
+2025-05-01 12:31:04.215 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Work' to email 1968b0f3eec8e672
+2025-05-01 12:31:05.042 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968b0f3eec8e672 as read
+2025-05-01 12:31:05.478 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: New jobs posted from careers.ll.mit.edu
+2025-05-01 12:31:05.478 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your dispute has been received and is under review
+2025-05-01 12:31:05.478 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your dispute has been received and is under review
+2025-05-01 12:31:06.577 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: shopping
+2025-05-01 12:31:06.577 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Shopping' to email 1968a3d54f053438
+2025-05-01 12:31:07.181 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968a3d54f053438 as read
+2025-05-01 12:31:07.565 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your dispute has been received and is under review
+2025-05-01 12:31:07.565 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your verification code
+2025-05-01 12:31:07.566 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your verification code
+2025-05-01 12:31:08.713 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: updates
+2025-05-01 12:31:08.713 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 1968a12c8a0ef4a4
+2025-05-01 12:31:09.654 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968a12c8a0ef4a4 as read
+2025-05-01 12:31:10.177 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your verification code
+2025-05-01 12:31:10.177 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your verification code
+2025-05-01 12:31:10.177 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your verification code
+2025-05-01 12:31:11.408 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: updates
+2025-05-01 12:31:11.411 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 1968a125d9eb7332
+2025-05-01 12:31:11.987 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968a125d9eb7332 as read
+2025-05-01 12:31:12.366 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your verification code
+2025-05-01 12:31:12.367 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Fresh launches you need to check out!
+2025-05-01 12:31:12.367 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Fresh launches you need to check out!
+2025-05-01 12:31:13.588 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analysis complete. Category: promotional
+2025-05-01 12:31:13.588 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968a0ac64eeca34
+2025-05-01 12:31:14.229 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968a0ac64eeca34 as read
+2025-05-01 12:31:14.615 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Fresh launches you need to check out!
+2025-05-01 12:31:14.615 | INFO     | __main__:main:51 - Processed 10 emails
+2025-05-01 12:36:47.191 | INFO     | __main__:main:61 - Starting email processing with batch size: 10
+2025-05-01 12:36:47.192 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:36:49.712 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New login to your DoorDash account
+2025-05-01 12:36:49.713 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New login to your DoorDash account
+2025-05-01 12:36:51.373 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: finance
+2025-05-01 12:36:52.824 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: finance
+2025-05-01 12:36:52.825 | ERROR    | agents.base_agent:handle_error:43 - Error in CoordinatorAgent: 'CoordinatorAgent' object has no attribute '_handle_priority' Context: Error in coordinator workflow
+2025-05-01 12:36:52.825 | ERROR    | __main__:main:78 - Unhandled error: 'CoordinatorAgent' object has no attribute '_handle_priority'
+2025-05-01 12:38:24.188 | INFO     | __main__:main:61 - Starting email processing with batch size: 10
+2025-05-01 12:38:24.189 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:38:26.885 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New login to your DoorDash account
+2025-05-01 12:38:26.886 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New login to your DoorDash account
+2025-05-01 12:38:28.251 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:38:29.886 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: updates
+2025-05-01 12:38:30.767 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689bba78afd7f7
+2025-05-01 12:38:30.768 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 19689bba78afd7f7
+2025-05-01 12:38:31.628 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689bba78afd7f7_20250501_123831.json
+2025-05-01 12:38:31.628 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: New login to your DoorDash account
+2025-05-01 12:38:31.628 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your verification code
+2025-05-01 12:38:31.628 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your verification code
+2025-05-01 12:38:32.932 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:38:34.226 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: updates
+2025-05-01 12:38:34.823 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied IMPORTANT label to high priority email: 19689b6ab0ae0665
+2025-05-01 12:38:35.432 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689b6ab0ae0665
+2025-05-01 12:38:35.432 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 19689b6ab0ae0665
+2025-05-01 12:38:36.133 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689b6ab0ae0665_20250501_123836.json
+2025-05-01 12:38:36.133 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your verification code
+2025-05-01 12:38:36.134 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: How do hens stay fit?
+2025-05-01 12:38:36.134 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: How do hens stay fit?
+2025-05-01 12:38:36.979 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: other
+2025-05-01 12:38:38.112 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: other
+2025-05-01 12:38:38.113 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Other' to email 19689b27e4423ab9
+2025-05-01 12:38:39.059 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 19689b27e4423ab9 as read
+2025-05-01 12:38:39.467 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689b27e4423ab9_20250501_123839.json
+2025-05-01 12:38:39.467 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: How do hens stay fit?
+2025-05-01 12:38:39.467 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Contract violation received
+2025-05-01 12:38:39.467 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Contract violation received
+2025-05-01 12:38:40.709 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: work
+2025-05-01 12:38:42.258 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: work
+2025-05-01 12:38:43.136 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied IMPORTANT label to high priority email: 19689942820576ec
+2025-05-01 12:38:43.755 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689942820576ec
+2025-05-01 12:38:43.756 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Work' to email 19689942820576ec
+2025-05-01 12:38:44.360 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689942820576ec_20250501_123844.json
+2025-05-01 12:38:44.360 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Contract violation received
+2025-05-01 12:38:44.361 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Congratulations, your Dasher Welcome Kit is on its way!
+2025-05-01 12:38:44.361 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Congratulations, your Dasher Welcome Kit is on its way!
+2025-05-01 12:38:45.247 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: work
+2025-05-01 12:38:49.074 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: work
+2025-05-01 12:38:49.074 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Work' to email 196892621145a98a
+2025-05-01 12:38:49.953 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 196892621145a98a as read
+2025-05-01 12:38:50.364 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/196892621145a98a_20250501_123850.json
+2025-05-01 12:38:50.364 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Congratulations, your Dasher Welcome Kit is on its way!
+2025-05-01 12:38:50.364 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Now Live: Glean
+2025-05-01 12:38:50.364 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Now Live: Glean
+2025-05-01 12:38:51.597 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: finance
+2025-05-01 12:38:53.990 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: finance
+2025-05-01 12:38:54.747 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 196888044788182a
+2025-05-01 12:38:54.747 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Finance' to email 196888044788182a
+2025-05-01 12:38:55.720 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/196888044788182a_20250501_123855.json
+2025-05-01 12:38:55.720 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Now Live: Glean
+2025-05-01 12:38:55.720 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Rohan, we've missed you! The new 2025 TV and Audio lineup is here
+2025-05-01 12:38:55.720 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Rohan, we've missed you! The new 2025 TV and Audio lineup is here
+2025-05-01 12:38:56.774 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: promotional
+2025-05-01 12:38:59.914 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: promotional
+2025-05-01 12:38:59.915 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 196886e7f0d97656
+2025-05-01 12:39:00.564 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 196886e7f0d97656 as read
+2025-05-01 12:39:00.960 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/196886e7f0d97656_20250501_123900.json
+2025-05-01 12:39:00.960 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Rohan, we've missed you! The new 2025 TV and Audio lineup is here
+2025-05-01 12:39:00.960 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:39:00.961 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:39:02.756 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: promotional
+2025-05-01 12:39:05.358 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: promotional
+2025-05-01 12:39:06.095 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 1968853a08a258c7
+2025-05-01 12:39:06.095 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968853a08a258c7
+2025-05-01 12:39:06.752 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/1968853a08a258c7_20250501_123906.json
+2025-05-01 12:39:06.752 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:39:06.752 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New spend management features: enhanced budget alerts and new auto-recharge limits
+2025-05-01 12:39:06.752 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New spend management features: enhanced budget alerts and new auto-recharge limits
+2025-05-01 12:39:07.568 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:39:14.647 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: updates
+2025-05-01 12:39:15.242 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19688525e193fc56
+2025-05-01 12:39:15.242 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 19688525e193fc56
+2025-05-01 12:39:16.165 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19688525e193fc56_20250501_123916.json
+2025-05-01 12:39:16.165 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: New spend management features: enhanced budget alerts and new auto-recharge limits
+2025-05-01 12:39:16.165 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your points expire in 3️⃣0️⃣ days
+2025-05-01 12:39:16.165 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your points expire in 3️⃣0️⃣ days
+2025-05-01 12:39:17.095 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: promotional
+2025-05-01 12:39:18.351 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: promotional
+2025-05-01 12:39:18.991 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 196881fdb0d4a8c0
+2025-05-01 12:39:18.991 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 196881fdb0d4a8c0
+2025-05-01 12:39:19.576 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/196881fdb0d4a8c0_20250501_123919.json
+2025-05-01 12:39:19.576 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your points expire in 3️⃣0️⃣ days
+2025-05-01 12:39:19.576 | INFO     | __main__:main:68 - Processed 10 emails
+2025-05-01 12:54:07.170 | INFO     | __main__:main:61 - Starting email processing with batch size: 10
+2025-05-01 12:54:07.171 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:54:09.742 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Cinco starts now with $0 Delivery Fee 🙌
+2025-05-01 12:54:09.742 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Cinco starts now with $0 Delivery Fee 🙌
+2025-05-01 12:54:11.121 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: promotional
+2025-05-01 12:54:12.176 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: promotional
+2025-05-01 12:54:12.177 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968cf67e311b097
+2025-05-01 12:54:12.866 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Marking email 1968cf67e311b097 as read
+2025-05-01 12:54:13.264 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/1968cf67e311b097_20250501_125413.json
+2025-05-01 12:54:13.264 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Cinco starts now with $0 Delivery Fee 🙌
+2025-05-01 12:54:13.264 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New login to your DoorDash account
+2025-05-01 12:54:13.264 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New login to your DoorDash account
+2025-05-01 12:54:14.810 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:55:00.529 | INFO     | __main__:main:61 - Starting email processing with batch size: 10
+2025-05-01 12:55:00.530 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Starting email processing with batch size: 10
+2025-05-01 12:55:03.002 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New login to your DoorDash account
+2025-05-01 12:55:03.003 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New login to your DoorDash account
+2025-05-01 12:55:05.155 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: finance
+2025-05-01 12:55:06.515 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: finance
+2025-05-01 12:55:07.099 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689bba78afd7f7
+2025-05-01 12:55:07.099 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Finance' to email 19689bba78afd7f7
+2025-05-01 12:55:07.842 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689bba78afd7f7_20250501_125507.json
+2025-05-01 12:55:07.842 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: New login to your DoorDash account
+2025-05-01 12:55:07.842 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your verification code
+2025-05-01 12:55:07.842 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your verification code
+2025-05-01 12:55:08.863 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:55:10.409 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: updates
+2025-05-01 12:55:10.995 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied IMPORTANT label to high priority email: 19689b6ab0ae0665
+2025-05-01 12:55:11.555 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689b6ab0ae0665
+2025-05-01 12:55:11.555 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Updates' to email 19689b6ab0ae0665
+2025-05-01 12:55:12.439 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689b6ab0ae0665_20250501_125512.json
+2025-05-01 12:55:12.439 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your verification code
+2025-05-01 12:55:12.439 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Contract violation received
+2025-05-01 12:55:12.439 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Contract violation received
+2025-05-01 12:55:13.536 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: work
+2025-05-01 12:55:15.061 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: work
+2025-05-01 12:55:15.650 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied IMPORTANT label to high priority email: 19689942820576ec
+2025-05-01 12:55:16.236 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 19689942820576ec
+2025-05-01 12:55:16.236 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Work' to email 19689942820576ec
+2025-05-01 12:55:16.858 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/19689942820576ec_20250501_125516.json
+2025-05-01 12:55:16.859 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Contract violation received
+2025-05-01 12:55:16.859 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Now Live: Glean
+2025-05-01 12:55:16.859 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Now Live: Glean
+2025-05-01 12:55:18.209 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: finance
+2025-05-01 12:55:20.303 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: finance
+2025-05-01 12:55:20.878 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 196888044788182a
+2025-05-01 12:55:20.878 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Finance' to email 196888044788182a
+2025-05-01 12:55:21.486 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/196888044788182a_20250501_125521.json
+2025-05-01 12:55:21.486 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Now Live: Glean
+2025-05-01 12:55:21.486 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:55:21.487 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:55:25.769 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: promotional
+2025-05-01 12:55:28.435 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Enhanced analysis complete for category: promotional
+2025-05-01 12:55:29.114 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Applied ACTION_REQUIRED label to email: 1968853a08a258c7
+2025-05-01 12:55:29.114 | INFO     | agents.base_agent:log:36 - [EmailSorterAgent] Applying label 'Promotions' to email 1968853a08a258c7
+2025-05-01 12:55:29.762 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Saved detailed analysis to analysis_results/1968853a08a258c7_20250501_125529.json
+2025-05-01 12:55:29.762 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Completed processing email: Your Upcoming Concert Lineup: Shoreline Mafia, Ken Carson, Kota the Friend
+2025-05-01 12:55:29.762 | INFO     | agents.base_agent:log:36 - [CoordinatorAgent] Processing email: New spend management features: enhanced budget alerts and new auto-recharge limits
+2025-05-01 12:55:29.762 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Analyzing email: New spend management features: enhanced budget alerts and new auto-recharge limits
+2025-05-01 12:55:30.571 | INFO     | agents.base_agent:log:36 - [EmailAnalyzerAgent] Basic categorization complete. Category: updates
+2025-05-01 12:55:50.405 | ERROR    | agents.base_agent:handle_error:43 - Error in EmailAnalyzerAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+] Context: Failed to analyze email
+2025-05-01 12:55:50.408 | ERROR    | agents.base_agent:handle_error:43 - Error in CoordinatorAgent: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+] Context: Error in coordinator workflow
+2025-05-01 12:55:50.408 | ERROR    | __main__:main:78 - Unhandled error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]

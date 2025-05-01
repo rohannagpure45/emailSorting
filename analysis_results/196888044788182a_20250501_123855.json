@@ -1,0 +1,24 @@
+{
+  "category": "finance",
+  "confidence": 0.95,
+  "reasoning": "The email discusses investment opportunities in a company called Glean through Hiive Funds. It mentions share prices, investment structures, fees, target minimum investment, and risks associated with private company investments. It also mentions accredited investors and brokerage fees, and includes a disclaimer about investment decisions. The links in the email also support the categorization related to investment opportunity. All these elements clearly point to the email being finance-related.",
+  "sentiment": "neutral",
+  "priority": "medium",
+  "action_required": true,
+  "action_items": [
+    "Review the Glean opportunity details.",
+    "Consider investing in Glean shares via Hiive Fund.",
+    "Book a call to speak with a member of the Hiive team if needed.",
+    "If not a US investor, respond to the email to express interest in participating in Hiive Funds or other investment opportunities."
+  ],
+  "deadlines": [
+    "2025-04-30"
+  ],
+  "summary": "Hiive is offering an investment opportunity in Glean, an AI productivity startup, through a Hiive-organized fund.  The email provides details on the investment structure, fees, minimum investment, and information about Glean's recent funding and revenue. It urges prompt action due to limited availability.",
+  "enhanced_data": {
+    "transaction_type": "Investment Opportunity",
+    "amount": "",
+    "due_date": "",
+    "account_info": ""
+  }
+}

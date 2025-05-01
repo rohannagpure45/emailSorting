@@ -1,0 +1,32 @@
+{
+  "category": "promotional",
+  "confidence": 0.98,
+  "reasoning": "The email promotes upcoming concerts by various artists, fitting squarely into the definition of marketing and promotional content from a business (Live Nation). The subject line and body content heavily focus on advertising events and providing links to purchase tickets.",
+  "sentiment": "positive",
+  "priority": "medium",
+  "action_required": true,
+  "action_items": [
+    "Consider attending listed concerts",
+    "Purchase tickets if interested",
+    "Check artist and venue for most up-to-date information",
+    "Unsubscribe to no longer receive this type of promotional email"
+  ],
+  "deadlines": [
+    "2025-06-10",
+    "2025-06-11",
+    "2024-06-24",
+    "2024-07-29",
+    "2024-08-01",
+    "2024-09-21",
+    "2024-09-23",
+    "2024-09-24",
+    "2024-10-03",
+    "2025-05-10",
+    "2025-05-12",
+    "2025-05-27",
+    "2025-05-30",
+    "2025-05-31"
+  ],
+  "summary": "This email from Live Nation promotes upcoming concerts featuring Shoreline Mafia, Ken Carson, Kota the Friend, and other artists in your area. It encourages the recipient to check out the events and purchase tickets.",
+  "enhanced_data": {}
+}

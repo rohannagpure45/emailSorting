@@ -1,0 +1,15 @@
+{
+  "category": "updates",
+  "confidence": 0.95,
+  "reasoning": "The email is from DoorDash and provides a verification code, which is a security update to confirm the user's identity and prevent unauthorized access to their account.",
+  "sentiment": "neutral",
+  "priority": "high",
+  "action_required": true,
+  "action_items": [
+    "Enter the 6-digit verification code into the DoorDash app/website when prompted for two-factor authentication.",
+    "If you did not request this code, sign in to your DoorDash account and update your password immediately."
+  ],
+  "deadlines": [],
+  "summary": "This email provides a 6-digit verification code for DoorDash two-factor authentication. It warns users not to share the code and to update their password if they didn't request it, suggesting unauthorized access might have occurred.",
+  "enhanced_data": {}
+}

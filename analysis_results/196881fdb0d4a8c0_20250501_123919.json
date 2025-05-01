@@ -1,0 +1,15 @@
+{
+  "category": "promotional",
+  "confidence": 1.0,
+  "reasoning": "The email is from Chipotle, a commercial business, and the subject line \"Your points expire in 3\ufe0f\u20e30\ufe0f\u20e3 days\" is a clear indication of a marketing promotion intended to encourage customers to use their rewards points. The body contains links to Chipotle's social media accounts and customer service, further supporting its promotional nature.",
+  "sentiment": "neutral",
+  "priority": "medium",
+  "action_required": true,
+  "action_items": [
+    "Check Chipotle Rewards account to see expiring points balance.",
+    "Redeem points before they expire."
+  ],
+  "deadlines": [],
+  "summary": "Chipotle Rewards email notifying the recipient that their points will expire in 30 days. Recipient should check their account and redeem points before the deadline to avoid losing them.",
+  "enhanced_data": {}
+}

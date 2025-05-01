@@ -1,0 +1,20 @@
+{
+  "category": "finance",
+  "confidence": 0.8,
+  "reasoning": "While the email subject mentions a \"New login,\" the body discusses potential unauthorized access to a DoorDash account and encourages password updates from the DoorDash account page. This directly relates to the security of financial information associated with the account (payment methods, stored addresses). If the account is compromised, finances are at risk, indicating a 'finance' categorization.",
+  "sentiment": "neutral",
+  "priority": "medium",
+  "action_required": true,
+  "action_items": [
+    "If the login was NOT yours: Update DoorDash password immediately from the DoorDash account page.",
+    "If the login WAS yours: Safely disregard the email."
+  ],
+  "deadlines": [],
+  "summary": "DoorDash sent a notification of a new login to your account. If you didn't log in, update your password immediately on DoorDash's website. If you did log in on a new device, disregard the email.",
+  "enhanced_data": {
+    "transaction_type": "security alert",
+    "amount": "",
+    "due_date": "",
+    "account_info": ""
+  }
+}

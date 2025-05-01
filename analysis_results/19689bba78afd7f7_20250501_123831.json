@@ -1,0 +1,14 @@
+{
+  "category": "updates",
+  "confidence": 0.95,
+  "reasoning": "The email is a notification about a new login to a DoorDash account, which falls under the \"updates\" category as it's a service announcement related to account activity.",
+  "sentiment": "neutral",
+  "priority": "medium",
+  "action_required": true,
+  "action_items": [
+    "If the login was not yours, update your DoorDash password immediately via the provided link."
+  ],
+  "deadlines": [],
+  "summary": "A new login to your DoorDash account was detected. If this activity was yours, disregard this email. If it wasn't, update your password immediately through the link provided to secure your account.",
+  "enhanced_data": {}
+}

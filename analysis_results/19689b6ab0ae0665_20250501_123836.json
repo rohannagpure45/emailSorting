@@ -1,0 +1,15 @@
+{
+  "category": "updates",
+  "confidence": 0.95,
+  "reasoning": "The email is from DoorDash with the subject \"Your verification code\". The body of the email contains a 6-digit verification code and instructions to enter it for two-factor authentication. This clearly falls into the category of updates, specifically an account notification related to security verification. The presence of an HTML body instead of plain text further reinforces this as an automated system-generated email.",
+  "sentiment": "neutral",
+  "priority": "high",
+  "action_required": true,
+  "action_items": [
+    "Enter the 6-digit verification code into the two-factor authentication prompt.",
+    "If you didn't request the code, sign in to your DoorDash account and update your password immediately."
+  ],
+  "deadlines": [],
+  "summary": "This email provides a 6-digit verification code for DoorDash two-factor authentication. It warns users not to share the code and to update their password if they did not request the code or suspect unauthorized account access.",
+  "enhanced_data": {}
+}
